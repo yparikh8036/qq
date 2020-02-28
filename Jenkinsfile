@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('run') {
       steps {
-        sh 'javac ConsumerInterface.java && java ConsumerInterface'
+        sh '''java --help
+'''
       }
     }
 
